@@ -41,6 +41,10 @@ header a {
    background-color: #312022;
 }
 
+#regButtonH:hover {
+  background-color: #B2BC4E;
+}
+
 #login a {
   margin: 0 3px;
 }
@@ -97,7 +101,7 @@ main {
   border: 0;
   border-radius: 10px;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 0px;
   width: 45%;
 }
 
