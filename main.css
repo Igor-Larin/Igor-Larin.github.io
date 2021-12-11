@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: white;
+}
+
+p {
+  font-family: Arial;
+}
+
+.lgrey {
+  background-color: #E2E2E2;
+}
+
+.grey {
+  background-color: #D8D8D8;
+}
+
+.gblue { 
+E0EAEB
+}
+
+.lblue {
+  background-color: #F5FDFF;
+}
+
+header {
+  background-color: #6A5D5E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerElem {
+  color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#deskname {
+  color: black;
+  font-weight: bold;
+  background-color: #E0EAEB;
+}
+
+#trello {
+  background-color: #503335;
+  color: #C0ECE9;
+  font-weight: bold;
+}
+
+
+#nickname, #trello {
+  margin: 5px 20px;
+}
+
+#trello:hover {
+   background-color: #312022;
+}
+
+#nickname {
+  background-color: #86920F;
+}
+
+#nickname:hover {
+  background-color: #B2BC4E;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+  padding-top: 50px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.card { 
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F5FDFF;
+  border-radius: 6px;
+  padding: 0 10px 10px;
+  box-shadow: 2px 3px 5px rgba(0,0,0,0.5);  
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.addCardButton {
+  background-color: #E0EAEB;
+  text-align: center;
+  width: 20%;
+  border-radius: 5px;
+  padding: 10px 5px;
+  font-size: 17px;
+  box-shadow: 2px 3px 5px rgba(0,0,0,0.5); 
+}
+
+.addCardButton:hover {
+  background-color: #BACECF;
+}
+
+.task, .editButton {
+  padding: 8px;
+  margin: 5px 0;
+}
+
+.task {
+  background-color: #E2E2E2;
+  width: 80%;    
+}
+
+.inside {
+  display: flex;
+  width: 100%;
+}
+
+.addTaskButton {
+  background-color: #E0EAEB;
+  text-align: center;
+  margin-top: 5px;
+  width: 80%;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 17px;
+}
+
+.editButton {
+  background-color: #D8D8D8;
+  width: 20%;
+  text-align: center;
+  font-size: 13px;
+}
+
+.addTaskButton:hover {
+  background-color: #BACECF;
+}
+
+.editButton:hover {
+  background-color: #BBBBBB;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+  margin: 5px 50px;  
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
