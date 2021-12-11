@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, #a4fffa, #ffffff);
+}
+
+p {
+  font-family: Arial;
+}
+
+.lbrown {
+  background-color: #6A5D5E;
+}
+
+.brown {
+  background-color: #503335;
+}
+
+.green {
+  background-color: #86920F;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6A5D5E;
+}
+
+#login, #trello {
+  margin: 5px 20px;
+}
+
+a {
+  color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+#logButton:hover, #trello:hover {
+   background-color: #312022;
+}
+
+#login a {
+  margin: 0 3px;
+}
+
+main {
+  width: 60vw;
+  margin: 0 auto 100px;
+  padding-top: 50px;
+}
+
+#reg {
+  border-radius: 10px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 5px 5px;
+  text-align: left;
+  font-size: 18px;
+}
+
+#descr {
+  margin-bottom: 30px;
+}
+
+#descr p {
+  text-align: center;
+  color: black;
+  font-size: 24px;
+}
+
+#reg {
+  margin-top: 30px;
+}
+
+#reg p {
+ color: white; 
+}
+
+#inp {
+  display: flex;
+  justify-content: space-between;
+}
+
+#regButton {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+#mail {
+  border: 0;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  width: 40%;
+}
+
+#regButton:hover {
+  background-color: #B2BC4E;
+}
+
+footer {
+  display: flex;
+  justify-content: center; 
+}
+
+footer a{
+  color: black;
+  margin: 0 50px;
+  background-color: white;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
