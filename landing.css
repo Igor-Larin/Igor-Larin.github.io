@@ -26,6 +26,11 @@ header{
   background-color: #6A5D5E;
 }
 
+#trello {
+   color: #C0ECE9;
+   font-weight: bold;
+}
+
 #login, #trello {
   margin: 5px 20px;
 }
