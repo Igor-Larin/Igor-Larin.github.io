@@ -105,12 +105,12 @@ main {
 footer {
   display: flex;
   justify-content: center; 
+  background-color: white;
 }
 
 footer a{
   color: black;
-  margin: 0 50px;
-  background-color: white;
+  margin: 0 50px;  
 }
 
 footer a:hover {
