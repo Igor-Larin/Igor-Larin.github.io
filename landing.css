@@ -79,6 +79,7 @@ main {
 }
 
 #inp {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -86,8 +87,10 @@ main {
 #regButton {
   border: 0;
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px;
   color: white;
+  width: 45%;
+  text-align: center;
 }
 
 #mail {
@@ -95,7 +98,7 @@ main {
   border-radius: 10px;
   text-align: center;
   padding: 10px;
-  width: 40%;
+  width: 45%;
 }
 
 #regButton:hover {
@@ -117,9 +120,3 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
-
-
-
-
-
-
